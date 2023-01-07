@@ -120,7 +120,8 @@
     height: 300px;
     margin: 130px 230px;
 }
-.mindset{
+
+.mindset {
     padding-left: 60px;
     padding-right: 400px;
 }
@@ -142,4 +143,66 @@
     border: 0;
     padding: 20px 35px;
 }
+
 /* Footer styles */
+.footer-box {
+    background-color: #151414;
+    /* width: 1600px;
+    height: 577px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px;
+}
+
+.future h4 {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 5px;
+}
+
+.future p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 350px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.subscribe h5 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+/* .your-email {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 325px;
+height: 64px;
+} */
+.subscribe input {
+    width: 325px;
+    height: 40px;
+    background-color: #151414;
+}
+
+.subscribe input::placeholder {
+    color: #F8F8F8;
+    font-size: 12px;
+}
+
+.btn-subs {
+    width: 170.11px;
+    height: 40px;
+    background: #005FAC;
+    border-radius: 8px;
+    margin-top: 10px;
+}
