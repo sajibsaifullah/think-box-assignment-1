@@ -143,6 +143,9 @@
     border: 0;
     padding: 20px 35px;
 }
+.mnd-btn:hover{
+    cursor: pointer;
+}
 
 /* Footer styles */
 .footer-box {
@@ -173,6 +176,9 @@
     gap: 10px;
     padding-top: 10px;
 }
+.icons:hover{
+    cursor: pointer;
+}
 
 .subscribe h5 {
     color: #FFFFFF;
@@ -198,4 +204,7 @@
     background: #005FAC;
     border-radius: 8px;
     margin-top: 10px;
+}
+.btn-subs:hover{
+    cursor: pointer;
 }
